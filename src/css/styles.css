@@ -1,0 +1,85 @@
+#mainDiv {
+           
+  display: flex;
+  justify-content: center;
+  align-self:center;
+  
+}
+
+.tools-div, .pencil, .color{
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid gray;
+  cursor: pointer;
+  align-items: center;
+ 
+}
+
+.navigation{
+  display: flex;
+  justify-content: space-evenly;
+}
+.color-box{
+  width:20px;
+  height: 20px;
+  border-radius: 100%;
+}
+.penCursor{
+  cursor: url(../images/pen.svg) 10 10, auto !important;
+}
+.erasorCursor{
+  cursor: url(../images/eraser.svg) 10 10, auto !important;
+}
+
+.paginateTab{
+  background: rgba(255,0,0,0.3);
+  padding: 10px;
+}
+
+.penTool{
+  border-radius: 4px;
+  border: 1px solid lightgray;
+}
+.pencilSize{
+  width: 100px;
+  border-radius: 4px;
+  border: 1px solid lightgray;
+  height: 45px;
+  display: flex;
+  margin-left: 15px;
+}
+.color{
+  border-radius: 4px;
+  border: 1px solid lightgray;
+  height: 44px;
+  width: 150px;
+  margin-left: 15px;
+}
+.eraser{
+  border-radius: 4px;
+  border: 1px solid lightgray;
+  margin-left: 15px;
+}
+
+.subBox{
+  height: 100%;
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.size-box{
+  background: black;
+  border-radius: 100%;
+}
+.selectedBox{
+  background: lightgray;
+}
+
+button{
+  background: white;
+  outline: none;
+  border-radius: 9px;
+  height: 40px;
+  margin-left: 15px;
+}
